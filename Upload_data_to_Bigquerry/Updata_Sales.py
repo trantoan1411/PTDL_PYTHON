@@ -10,7 +10,7 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "Config.json"
 client = bigquery.Client()
 
 # Bảng đích: 'project_id.dataset.table_name'
-table_id = "powerbi-2474725.PowerBI_Data.Sales"
+table_id = "powerbi-*******.PowerBI_Data.Sales"
 
 # Đọc dữ liệu từ file CSV
 df = pd.read_csv("sales.csv")
